@@ -5,8 +5,8 @@ import logo from '../assets/Icon.png';
 
 const MyFooter = () => {
   return (
-    <Footer container>
-      <div className="w-full" id="faq">
+    <Footer container className='w-full bg-[#263238]'>
+      <div className="w-full " id="faq">
         <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
           <div className="space-y-4 mb-8">
             <a href="/" className="text-2xl font-semibold flex items-center space-x-3">
