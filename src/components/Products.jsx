@@ -1,4 +1,14 @@
 import React from 'react';
+import company1 from "../assets/company1.png"
+import company2 from "../assets/company2.png"
+import company3 from "../assets/company3.png"
+import company4 from "../assets/company4.png"
+import company5 from "../assets/company5.png"
+import company6 from "../assets/company6.png"
+import company7 from "../assets/company7.png"
+import arrow from "../assets/arrow.svg"
+import tesla from "../assets/tesla.svg"
+import pana from "../assets/pana.svg"
 
 const Products = () => {
   return (
@@ -7,7 +17,7 @@ const Products = () => {
       <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto my-8" id="product">
         <div className="md:w-11/12 mx-auto flex flex-col md:flex-row justify-between items-center gap-14">
           <div>
-            <img src="src/assets/pana.svg" alt="" height={500} width={500} />
+            <img src={pana} alt="" height={500} width={500} />
           </div>
           <div className="md:w-3/5 mx-auto">
             <h2 className="text-4xl text-neutralDGrey font-semibold mb-4 md:w-4/5">How to design your site footer like we did</h2>
@@ -21,7 +31,7 @@ const Products = () => {
       <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto bg-neutralSilver py-16">
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="md:w-1/3">
-            <img src="src/assets/tesla.svg" alt="" width={400} />
+            <img src={tesla} alt="" width={400} />
           </div>
 
           {/* stats */}
@@ -32,15 +42,15 @@ const Products = () => {
               <p className="text-base text-neutralDGrey mb-8">British Dragon Boat Racing Association</p>
               <div>
                 <div className="flex items-center gap-8 flex-wrap">
-                  <img src="src/assets/company1.png" alt="" className="cursor-pointer" />
-                  <img src="src/assets/company2.png" alt="" className="cursor-pointer" />
-                  <img src="src/assets/company3.png" alt="" className="cursor-pointer" />
-                  <img src="src/assets/company4.png" alt="" className="cursor-pointer" />
-                  <img src="src/assets/company5.png" alt="" className="cursor-pointer" />
-                  <img src="src/assets/company6.png" alt="" className="cursor-pointer" />
-                  <img src="src/assets/company7.png" alt="" className="cursor-pointer" />
+                  <img src={company1} alt="" className="cursor-pointer" />
+                  <img src={company2} alt="" className="cursor-pointer" />
+                  <img src={company3} alt="" className="cursor-pointer" />
+                  <img src={company4} alt="" className="cursor-pointer" />
+                  <img src={company5} alt="" className="cursor-pointer" />
+                  <img src={company6} alt="" className="cursor-pointer" />
+                  <img src={company7} alt="" className="cursor-pointer" />
                   <div className="flex items-center gap-8">
-                    <a href="/" className="font-bold hover:text-neutral-700 text-brandPrimary">Meet all Customers <img src="src/assets/arrow.svg" width={50} alt="" className="inline-block mt-5 hover:translate-x-3 transition duration-300" /></a>
+                    <a href="/" className="font-bold hover:text-neutral-700 text-brandPrimary">Meet all Customers <img src={arrow} width={50} alt="" className="inline-block mt-5 hover:translate-x-3 transition duration-300" /></a>
                   </div>
                 </div>
               </div>

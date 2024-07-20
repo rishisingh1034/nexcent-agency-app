@@ -1,5 +1,9 @@
 import React from 'react';
 import AboutImg from "/src/assets/about.svg";
+import memberStat from "/src/assets/memberStat.svg";
+import clubStat from "/src/assets/clubStat.svg";
+import eventStat from "/src/assets/eventStat.svg";
+import paymentStat from "/src/assets/paymentStat.svg";
 const About = () => {
   return (
     <div>
@@ -37,14 +41,14 @@ const About = () => {
           <div className="md:w-1/2 mx-auto flex sm:flex-row flex-col sm:items-center justify-around gap-12">
             <div className="space-y-8">
               <div className="flex items-center gap-4">
-                <img src="/src/assets/memberStat.svg" alt="Members" width={50} />
+                <img src={memberStat} alt="Members" width={50} />
                 <div>
                   <h4 className="text-2xl text-neutralDGrey font-semibold">2,245,341</h4>
                   <p>Members</p>
                 </div>
               </div>
               <div className="flex items-center gap-4">
-                <img src="/src/assets/clubStat.svg" alt="Clubs" width={50} />
+                <img src={clubStat} alt="Clubs" width={50} />
                 <div>
                   <h4 className="text-2xl text-neutralDGrey font-semibold">46,328</h4>
                   <p>Clubs</p>
@@ -53,14 +57,14 @@ const About = () => {
             </div>
             <div className="space-y-8">
               <div className="flex items-center gap-4">
-                <img src="/src/assets/eventStat.svg" alt="Event Bookings" width={50} />
+                <img src={eventStat} alt="Event Bookings" width={50} />
                 <div>
                   <h4 className="text-2xl text-neutralDGrey font-semibold">828,867</h4>
                   <p>Event Bookings</p>
                 </div>
               </div>
               <div className="flex items-center gap-4">
-                <img src="/src/assets/paymentStat.svg" alt="Payments" width={50} />
+                <img src={paymentStat} alt="Payments" width={50} />
                 <div>
                   <h4 className="text-2xl text-neutralDGrey font-semibold">1,926,436</h4>
                   <p>Payments</p>

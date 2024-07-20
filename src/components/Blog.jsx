@@ -1,10 +1,14 @@
 import React from 'react';
+import blog1 from "/src/assets/blog1.svg";
+import blog2 from "/src/assets/blog2.svg";
+import blog3 from "/src/assets/blog3.svg";
+import arrow from "/src/assets/arrow.svg";
 
 const Blog = () => {
   const blogs = [
-    { id: 1, title: "Creating Streamlined Safeguarding Processes with OneRen", image: "/src/assets/blog1.svg" },
-    { id: 2, title: "What are your safeguarding responsibilities and how can you manage them?", image: "/src/assets/blog2.svg" },
-    { id: 3, title: "Revamping the Membership Model with Triathlon Australia", image: "/src/assets/blog3.svg" },
+    { id: 1, title: "Creating Streamlined Safeguarding Processes with OneRen", image: blog1  },
+    { id: 2, title: "What are your safeguarding responsibilities and how can you manage them?", image: blog2 },
+    { id: 3, title: "Revamping the Membership Model with Triathlon Australia", image: blog3 },
   ];
 
   return (
@@ -25,7 +29,7 @@ const Blog = () => {
               <div className="flex items-center justify-center gap-8">
                 <a href="/" className="font-bold hover:text-neutral-700 text-brandPrimary">
                   Read More
-                  <img src="/src/assets/arrow.svg" width={50} alt="" className="inline-block ml-2 hover:translate-x-3 transition duration-300" />
+                  <img src={arrow} width={50} alt="" className="inline-block ml-2 hover:translate-x-3 transition duration-300" />
                 </a>
               </div>
             </div>

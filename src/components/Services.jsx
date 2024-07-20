@@ -1,4 +1,14 @@
 import React from 'react';
+import company1 from "../assets/company1.png"
+import company2 from "../assets/company2.png"
+import company3 from "../assets/company3.png"
+import company4 from "../assets/company4.png"
+import company5 from "../assets/company5.png"
+import company6 from "../assets/company6.png"
+import company7 from "../assets/company7.png"
+import membership from "../assets/membership.png"
+import national from "../assets/national.png"
+import clubs from "../assets/clubs.png"
 
 const Services = () => {
 
@@ -7,19 +17,19 @@ const Services = () => {
       id: 1, 
       title: "Membership Organisations",
       description: "Our membership management software provides full automation of membership renewals and payments",
-      image: "src/assets/membership.png"
+      image: membership
     },
     {
       id: 2, 
       title: "National Associations",
       description: "Our membership management software provides full automation of membership renewals and payments",
-      image: "src/assets/national.png"
+      image: national
     },
     {
       id: 3, 
       title: "Clubs And Groups",
       description: "Our membership management software provides full automation of membership renewals and payments",
-      image: "src/assets/clubs.png"
+      image: clubs
     }
   ];
 
@@ -31,13 +41,13 @@ const Services = () => {
 
         {/* company logos */}
         <div className='my-12 flex flex-wrap justify-between items-center gap-8'>
-          <img src="src/assets/company1.png" alt="Company 1" />
-          <img src="src/assets/company2.png" alt="Company 2" />
-          <img src="src/assets/company3.png" alt="Company 3" />
-          <img src="src/assets/company4.png" alt="Company 4" />
-          <img src="src/assets/company5.png" alt="Company 5" />
-          <img src="src/assets/company6.png" alt="Company 6" />
-          <img src="src/assets/company7.png" alt="Company 7" />
+          <img src={company1} alt="Company 1" />
+          <img src={company2} alt="Company 2" />
+          <img src={company3} alt="Company 3" />
+          <img src={company4} alt="Company 4" />
+          <img src={company5} alt="Company 5" />
+          <img src={company6} alt="Company 6" />
+          <img src={company7} alt="Company 7" />
         </div>
       </div>
 
