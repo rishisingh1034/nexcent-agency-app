@@ -1,5 +1,5 @@
 import React from 'react';
-
+import AboutImg from "/src/assets/about.svg";
 const About = () => {
   return (
     <div>
@@ -7,7 +7,7 @@ const About = () => {
       <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto my-8" id="about">
         <div className="md:w-11/12 mx-auto flex flex-col md:flex-row justify-between items-center gap-14">
           <div>
-            <img src="/src/assets/about.svg" alt="About" height={500} width={500} />
+            <img src={AboutImg} alt="About" height={500} width={500} />
           </div>
           <div className="md:w-3/5 mx-auto">
             <h2 className="text-4xl text-neutralDGrey font-semibold mb-4 md:w-4/5">
