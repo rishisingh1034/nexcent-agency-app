@@ -13,8 +13,8 @@ const MyFooter = () => {
               <img src={logo} alt="NEXCENT Logo" className="w-10 inline-block" />
               <span className="text-[#263238]">NEXCENT</span>
             </a>
-            <p className="mb-1">Copyright © 2020 Landify UI Kit.</p>
-            <p>All rights reserved</p>
+            <p className="mb-1 text-gray-400">Copyright © 2020 Landify UI Kit.</p>
+            <p className='text-gray-400'>All rights reserved</p>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
             <div>
